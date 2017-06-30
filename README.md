@@ -19,3 +19,5 @@ cd VisionClient
 
 Then you can run your py scripts!
 For example: python3 -i sandbox.py
+
+Report.py works as python3 -i report.py "./images/img.png" in which you can replace with http:
