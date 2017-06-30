@@ -3,7 +3,7 @@ from google.cloud import vision
 
 vision_client = vision.Client()
 #file from wget -O img.png https://www.dropbox.com/s/mgxvbii4rzcb6vp/originalWebcamShot.png?dl=0
-file_name = './img.png'
+file_name = './images/img.png'
 
 with io.open(file_name, 'rb') as image_file:
     content = image_file.read()
