@@ -61,7 +61,7 @@ if __name__ == '__main__':
         formatter_class=argparse.RawDescriptionHelpFormatter)
     path_help = str('The image to detect, can be web URI, '
                     'Google Cloud Storage, or path to local file.')
-    parser.add_argument('./images/img.png', help=path_help)
+    parser.add_argument('image_url', help=path_help)
     args = parser.parse_args()
 
     report(annotate(args.image_url))
